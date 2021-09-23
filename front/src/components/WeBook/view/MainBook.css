@@ -1,0 +1,10 @@
+.MainBox{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.subBox{
+    margin-bottom: 50px;
+}

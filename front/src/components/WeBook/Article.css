@@ -1,0 +1,45 @@
+.container
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.ui{
+    margin-bottom: 20px;
+}
+
+.contents{
+    width: 1300px;
+    height: 1000px;
+    padding: 20px;
+}
+
+.contentsss{
+    width: 1000px;
+    height: 1000px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons .padding{
+    margin-bottom: 5px;
+}
+
+.ui.visible.scale.down.sidebar~.pusher{
+    width: 1300px;
+    transform: scale(.90);
+}
+
+.ui.visible.scale.down.sidebar~.pusher.contents{
+    width: 900px;
+}
+
+.ui.menu .menu{
+    height: 100%;
+}
+
+/*에디터 사이즈 편집*/

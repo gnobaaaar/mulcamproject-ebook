@@ -1,0 +1,88 @@
+.App {
+    margin: 2%;
+}
+
+.mainView {
+    font-size: xx-large;
+    margin-right: 65%;
+}
+
+.menu-Bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.menu-Bar a {
+    margin-right: 2%;
+}
+
+.nav {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.SearchInput {
+    width: 90%;
+    justify-content: center;
+    position:absolute;
+}
+
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.SearchInput {
+    width: 90%;
+    justify-content: center;
+    position:absolute;
+}
+
+.myPageMenubar {
+    width: 5%;
+}
+
+.myPageMenu-Bar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+@font-face {
+    font-family: "cookie";
+    src: url("./font/Perfograma-Regular.ttf");
+}
+
+@font-face {
+    font-family: "quicksand";
+    src: url("./font/Quicksand-Regular.ttf")
+}

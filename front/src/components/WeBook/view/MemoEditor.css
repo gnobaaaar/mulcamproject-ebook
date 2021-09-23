@@ -1,0 +1,22 @@
+.memoBtn{
+    width: 100px;
+    height: 30px;
+    border:none;
+    color:white;
+    background: #adaeb9;
+    border-radius: 4px;
+    transition : ease-in-out .3s;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.memoBtn:hover{
+    transition: 0.5s all ease;
+    left:0;
+    right: 0;
+    opacity:1;
+}
+
+.memoBtn:active{
+    background-color: #ffd9d9;
+}

@@ -1,0 +1,13 @@
+.menu-subBar {
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-subBar a{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

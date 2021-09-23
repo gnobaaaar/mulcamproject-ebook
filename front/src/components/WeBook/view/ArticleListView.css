@@ -1,0 +1,37 @@
+.listBox{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: #f6f6f6;*/
+}
+
+.listBox ul{
+    width: 100%;
+    position: relative;
+    background: #fff;
+}
+
+.listBox ul li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    transition: transform 0.5s;
+    text-align: center;
+}
+
+.listBox ul li:hover{
+    transform:scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+}
+
+.listBox ul li span{
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
